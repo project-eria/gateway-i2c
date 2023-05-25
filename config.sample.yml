@@ -1,0 +1,9 @@
+id: xxx
+port: 8889
+devices:
+  - type: ads1115
+    params:
+      "0": volts
+      "1": volts
+    rate: 300 # seconds
+  - type: sht31d
